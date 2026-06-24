@@ -3,7 +3,7 @@ package src;
 import java.util.HashMap;
 
 public class Database {
-    private HashMap<Integer, User> users;
+    private HashMap<Integer, src.User> users;
 
     private static Database instance;
 
@@ -18,7 +18,7 @@ public class Database {
         return instance;
     }
 
-    public void addUser(User user) {
+    public void addUser(src.User user) {
         users.put(user.getId(), user);
     }
 
@@ -26,7 +26,7 @@ public class Database {
         users.remove(userId);
     }
 
-    public HashMap<Integer, User> getUsers() {
+    public HashMap<Integer, src.User> getUsers() {
         return users;
     }
 }

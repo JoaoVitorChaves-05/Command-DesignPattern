@@ -1,8 +1,6 @@
-package src;
-
-import src.interfaces.ICommand;
-import src.commands.CreateUser;
-import src.commands.DeleteUser;
+import interfaces.ICommand;
+import commands.CreateUser;
+import commands.DeleteUser;
 import java.util.HashMap;
 
 public class Invoker {
@@ -24,3 +22,4 @@ public class Invoker {
         return command.execute(data);
     }
 }
+
