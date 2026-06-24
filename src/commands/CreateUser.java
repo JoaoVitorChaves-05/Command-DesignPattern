@@ -1,6 +1,6 @@
-package src.commands;
+package commands;
 
-import src.interfaces.ICommand;
+import interfaces.ICommand;
 import src.Database;
 import src.User;
 
@@ -21,3 +21,4 @@ public class CreateUser implements ICommand {
     }
 
 }
+
